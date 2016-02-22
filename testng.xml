@@ -1,0 +1,22 @@
+<suite name="OrangeHRM"  parallel="tests">
+  <test name="On Firefox">
+  	<parameter name="browser" value="firefox"/>
+    <classes>
+		<class name="com.orangehrm.baseclass.Login"/>
+		<class name="com.orangehrm.baseclass.AddEmployee"/>
+		<class name="com.orangehrm.baseclass.TakingScreenshot"/>
+		<class name="com.orangehrm.baseclass.Logout"/>
+      
+    </classes>
+  </test> 
+  <test name="On Chrome">
+  	<parameter name="browser" value="chrome"/>
+    <classes>
+		<class name="com.orangehrm.baseclass.Login"/>
+		<class name="com.orangehrm.baseclass.AddEmployee"/>
+		<class name="com.orangehrm.baseclass.TakingScreenshot"/>
+		<class name="com.orangehrm.baseclass.Logout"/>
+      
+    </classes>
+  </test> 
+</suite> 
